@@ -1,0 +1,25 @@
+{
+  "name": "cli-application",
+  "version": "1.0.0",
+  "description": "Домашнее задание Node.js №1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SvetlanaMerkurieva/CLI-Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SvetlanaMerkurieva/CLI-Application/issues"
+  },
+  "homepage": "https://github.com/SvetlanaMerkurieva/CLI-Application#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
