@@ -24,8 +24,10 @@ const removeContact = async (contactId) => {
 
 const addContact = async (name, email, phone) => {
   const contacts = await listContacts();
-    const newContact = { name, email, phone, id: "11" };
-    const newContacts = contacts.push(newContact);
-    await fs.writeFile(contactsPath, JSON.stringify(newContacts));
-    return newContacts;
+  const newContact = { name, email, phone, id: "11" };
+  const newContacts = contacts.push(newContact);
+  await fs.writeFile(contactsPath, JSON.stringify(newContacts));
+  return newContacts;
 };
+
+module.exports = { listContacts, getContactById, removeContact, addContact };
