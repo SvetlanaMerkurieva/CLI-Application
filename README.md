@@ -9,3 +9,5 @@
 Результат действия "add" - выводит в терминал все контакты из файла contacts.json вместе с добавленным № 11: https://monosnap.com/file/dJYvvnyHCPyoyLa0X1AaM9cJ2CC0QW
 
 Результат действия "remove" - выводит в терминал все контакты из файла contacts.json кроме удаленного № 3: https://monosnap.com/file/gKOOQSoKAPpGtZyr9Akgf5HOPSQUOL
+
+Результат действия "add" - выводит в терминал все контакты из файла contacts.json вместе с добавленным, id которого сгенерирован: https://monosnap.com/file/uawtzUGVPwgFD27r6G73VaWBC3qiMP
